@@ -1,0 +1,16 @@
+{application, spreadbot_core,
+ [{description, "In-memory data store with high performance in mind."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { spreadbot_core_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
